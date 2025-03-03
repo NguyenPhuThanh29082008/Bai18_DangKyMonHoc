@@ -55,7 +55,10 @@ namespace Bai18_DangKyMonHoc
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            txtHoten.Clear();
+            txtMSSV.Clear();
+            cbxNienkhoa.SelectedIndex = 0;
+            cbxLop.SelectedIndex = 0;
         }
 
         private void btnDangky_Click(object sender, EventArgs e)
