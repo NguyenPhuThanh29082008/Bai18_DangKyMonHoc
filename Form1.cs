@@ -31,5 +31,16 @@ namespace Bai18_DangKyMonHoc
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            void HuyCheckListBox(CheckedListBox lst)
+            {
+                while (lst.CheckedIndices.Count > 0)
+                {
+                    lst.SetItemChecked(lst.CheckedIndices[0], false);
+                }
+            }
+        }
     }
 }

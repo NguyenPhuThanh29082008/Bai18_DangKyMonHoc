@@ -34,19 +34,19 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.txtMSSV = new System.Windows.Forms.TextBox();
+            this.txtHoten = new System.Windows.Forms.TextBox();
+            this.cbbNienkhoa = new System.Windows.Forms.ComboBox();
+            this.cbbLop = new System.Windows.Forms.ComboBox();
+            this.rdb1 = new System.Windows.Forms.RadioButton();
+            this.rdb2 = new System.Windows.Forms.RadioButton();
+            this.rdb3 = new System.Windows.Forms.RadioButton();
+            this.rdb4 = new System.Windows.Forms.RadioButton();
+            this.clbMonhoc = new System.Windows.Forms.CheckedListBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDangky = new System.Windows.Forms.Button();
+            this.btnHuy = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -106,92 +106,92 @@
             this.label6.Text = "Học Kỳ:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
-            // textBox1
+            // txtMSSV
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 27);
-            this.textBox1.TabIndex = 6;
+            this.txtMSSV.Location = new System.Drawing.Point(114, 52);
+            this.txtMSSV.Name = "txtMSSV";
+            this.txtMSSV.Size = new System.Drawing.Size(148, 27);
+            this.txtMSSV.TabIndex = 6;
             // 
-            // textBox2
+            // txtHoten
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 27);
-            this.textBox2.TabIndex = 7;
+            this.txtHoten.Location = new System.Drawing.Point(114, 85);
+            this.txtHoten.Name = "txtHoten";
+            this.txtHoten.Size = new System.Drawing.Size(275, 27);
+            this.txtHoten.TabIndex = 7;
             // 
-            // comboBox1
+            // cbbNienkhoa
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(114, 130);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(171, 27);
-            this.comboBox1.TabIndex = 8;
+            this.cbbNienkhoa.FormattingEnabled = true;
+            this.cbbNienkhoa.Location = new System.Drawing.Point(114, 130);
+            this.cbbNienkhoa.Name = "cbbNienkhoa";
+            this.cbbNienkhoa.Size = new System.Drawing.Size(171, 27);
+            this.cbbNienkhoa.TabIndex = 8;
             // 
-            // comboBox2
+            // cbbLop
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(114, 163);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(171, 27);
-            this.comboBox2.TabIndex = 9;
+            this.cbbLop.FormattingEnabled = true;
+            this.cbbLop.Location = new System.Drawing.Point(114, 163);
+            this.cbbLop.Name = "cbbLop";
+            this.cbbLop.Size = new System.Drawing.Size(171, 27);
+            this.cbbLop.TabIndex = 9;
             // 
-            // radioButton1
+            // rdb1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(114, 207);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(33, 23);
-            this.radioButton1.TabIndex = 10;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "I";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdb1.AutoSize = true;
+            this.rdb1.Location = new System.Drawing.Point(114, 207);
+            this.rdb1.Name = "rdb1";
+            this.rdb1.Size = new System.Drawing.Size(33, 23);
+            this.rdb1.TabIndex = 10;
+            this.rdb1.TabStop = true;
+            this.rdb1.Text = "I";
+            this.rdb1.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdb2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(204, 207);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(39, 23);
-            this.radioButton2.TabIndex = 11;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "II";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdb2.AutoSize = true;
+            this.rdb2.Location = new System.Drawing.Point(204, 207);
+            this.rdb2.Name = "rdb2";
+            this.rdb2.Size = new System.Drawing.Size(39, 23);
+            this.rdb2.TabIndex = 11;
+            this.rdb2.TabStop = true;
+            this.rdb2.Text = "II";
+            this.rdb2.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rdb3
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(297, 207);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(45, 23);
-            this.radioButton3.TabIndex = 12;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "III";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rdb3.AutoSize = true;
+            this.rdb3.Location = new System.Drawing.Point(297, 207);
+            this.rdb3.Name = "rdb3";
+            this.rdb3.Size = new System.Drawing.Size(45, 23);
+            this.rdb3.TabIndex = 12;
+            this.rdb3.TabStop = true;
+            this.rdb3.Text = "III";
+            this.rdb3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rdb4
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(405, 209);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(43, 23);
-            this.radioButton4.TabIndex = 13;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "IV";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rdb4.AutoSize = true;
+            this.rdb4.Location = new System.Drawing.Point(405, 209);
+            this.rdb4.Name = "rdb4";
+            this.rdb4.Size = new System.Drawing.Size(43, 23);
+            this.rdb4.TabIndex = 13;
+            this.rdb4.TabStop = true;
+            this.rdb4.Text = "IV";
+            this.rdb4.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
+            // clbMonhoc
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
+            this.clbMonhoc.FormattingEnabled = true;
+            this.clbMonhoc.Items.AddRange(new object[] {
             "LT Window",
             "LT Internet",
             "Mạng máy tính",
             "UML"});
-            this.checkedListBox1.Location = new System.Drawing.Point(114, 246);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(228, 92);
-            this.checkedListBox1.TabIndex = 14;
+            this.clbMonhoc.Location = new System.Drawing.Point(114, 246);
+            this.clbMonhoc.Name = "clbMonhoc";
+            this.clbMonhoc.Size = new System.Drawing.Size(228, 92);
+            this.clbMonhoc.TabIndex = 14;
             // 
             // label7
             // 
@@ -202,52 +202,53 @@
             this.label7.TabIndex = 15;
             this.label7.Text = "Môn học:";
             // 
-            // button1
+            // btnDangky
             // 
-            this.button1.Location = new System.Drawing.Point(114, 356);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 36);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Đăng ký";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDangky.Location = new System.Drawing.Point(114, 356);
+            this.btnDangky.Name = "btnDangky";
+            this.btnDangky.Size = new System.Drawing.Size(90, 36);
+            this.btnDangky.TabIndex = 16;
+            this.btnDangky.Text = "Đăng ký";
+            this.btnDangky.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnHuy
             // 
-            this.button2.Location = new System.Drawing.Point(238, 356);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 36);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Hủy";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnHuy.Location = new System.Drawing.Point(238, 356);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(88, 36);
+            this.btnHuy.TabIndex = 17;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnThoat
             // 
-            this.button3.Location = new System.Drawing.Point(360, 356);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(88, 36);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnThoat.Location = new System.Drawing.Point(360, 356);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(88, 36);
+            this.btnThoat.TabIndex = 18;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 455);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnHuy);
+            this.Controls.Add(this.btnDangky);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.clbMonhoc);
+            this.Controls.Add(this.rdb4);
+            this.Controls.Add(this.rdb3);
+            this.Controls.Add(this.rdb2);
+            this.Controls.Add(this.rdb1);
+            this.Controls.Add(this.cbbLop);
+            this.Controls.Add(this.cbbNienkhoa);
+            this.Controls.Add(this.txtHoten);
+            this.Controls.Add(this.txtMSSV);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -272,19 +273,19 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.TextBox txtMSSV;
+        private System.Windows.Forms.TextBox txtHoten;
+        private System.Windows.Forms.ComboBox cbbNienkhoa;
+        private System.Windows.Forms.ComboBox cbbLop;
+        private System.Windows.Forms.RadioButton rdb1;
+        private System.Windows.Forms.RadioButton rdb2;
+        private System.Windows.Forms.RadioButton rdb3;
+        private System.Windows.Forms.RadioButton rdb4;
+        private System.Windows.Forms.CheckedListBox clbMonhoc;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDangky;
+        private System.Windows.Forms.Button btnHuy;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 
