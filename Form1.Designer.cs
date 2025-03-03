@@ -36,12 +36,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtMSSV = new System.Windows.Forms.TextBox();
             this.txtHoten = new System.Windows.Forms.TextBox();
-            this.cbbNienkhoa = new System.Windows.Forms.ComboBox();
-            this.cbbLop = new System.Windows.Forms.ComboBox();
-            this.rdb1 = new System.Windows.Forms.RadioButton();
-            this.rdb2 = new System.Windows.Forms.RadioButton();
-            this.rdb3 = new System.Windows.Forms.RadioButton();
-            this.rdb4 = new System.Windows.Forms.RadioButton();
+            this.cbxNienkhoa = new System.Windows.Forms.ComboBox();
+            this.cbxLop = new System.Windows.Forms.ComboBox();
+            this.rad1 = new System.Windows.Forms.RadioButton();
+            this.rad2 = new System.Windows.Forms.RadioButton();
+            this.rad3 = new System.Windows.Forms.RadioButton();
+            this.rad4 = new System.Windows.Forms.RadioButton();
             this.clbMonhoc = new System.Windows.Forms.CheckedListBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnDangky = new System.Windows.Forms.Button();
@@ -120,74 +120,69 @@
             this.txtHoten.Size = new System.Drawing.Size(275, 27);
             this.txtHoten.TabIndex = 7;
             // 
-            // cbbNienkhoa
+            // cbxNienkhoa
             // 
-            this.cbbNienkhoa.FormattingEnabled = true;
-            this.cbbNienkhoa.Location = new System.Drawing.Point(114, 130);
-            this.cbbNienkhoa.Name = "cbbNienkhoa";
-            this.cbbNienkhoa.Size = new System.Drawing.Size(171, 27);
-            this.cbbNienkhoa.TabIndex = 8;
+            this.cbxNienkhoa.FormattingEnabled = true;
+            this.cbxNienkhoa.Location = new System.Drawing.Point(114, 130);
+            this.cbxNienkhoa.Name = "cbxNienkhoa";
+            this.cbxNienkhoa.Size = new System.Drawing.Size(171, 27);
+            this.cbxNienkhoa.TabIndex = 8;
             // 
-            // cbbLop
+            // cbxLop
             // 
-            this.cbbLop.FormattingEnabled = true;
-            this.cbbLop.Location = new System.Drawing.Point(114, 163);
-            this.cbbLop.Name = "cbbLop";
-            this.cbbLop.Size = new System.Drawing.Size(171, 27);
-            this.cbbLop.TabIndex = 9;
+            this.cbxLop.FormattingEnabled = true;
+            this.cbxLop.Location = new System.Drawing.Point(114, 163);
+            this.cbxLop.Name = "cbxLop";
+            this.cbxLop.Size = new System.Drawing.Size(171, 27);
+            this.cbxLop.TabIndex = 9;
             // 
-            // rdb1
+            // rad1
             // 
-            this.rdb1.AutoSize = true;
-            this.rdb1.Location = new System.Drawing.Point(114, 207);
-            this.rdb1.Name = "rdb1";
-            this.rdb1.Size = new System.Drawing.Size(33, 23);
-            this.rdb1.TabIndex = 10;
-            this.rdb1.TabStop = true;
-            this.rdb1.Text = "I";
-            this.rdb1.UseVisualStyleBackColor = true;
+            this.rad1.AutoSize = true;
+            this.rad1.Location = new System.Drawing.Point(114, 207);
+            this.rad1.Name = "rad1";
+            this.rad1.Size = new System.Drawing.Size(33, 23);
+            this.rad1.TabIndex = 10;
+            this.rad1.TabStop = true;
+            this.rad1.Text = "I";
+            this.rad1.UseVisualStyleBackColor = true;
             // 
-            // rdb2
+            // rad2
             // 
-            this.rdb2.AutoSize = true;
-            this.rdb2.Location = new System.Drawing.Point(204, 207);
-            this.rdb2.Name = "rdb2";
-            this.rdb2.Size = new System.Drawing.Size(39, 23);
-            this.rdb2.TabIndex = 11;
-            this.rdb2.TabStop = true;
-            this.rdb2.Text = "II";
-            this.rdb2.UseVisualStyleBackColor = true;
+            this.rad2.AutoSize = true;
+            this.rad2.Location = new System.Drawing.Point(204, 207);
+            this.rad2.Name = "rad2";
+            this.rad2.Size = new System.Drawing.Size(39, 23);
+            this.rad2.TabIndex = 11;
+            this.rad2.TabStop = true;
+            this.rad2.Text = "II";
+            this.rad2.UseVisualStyleBackColor = true;
             // 
-            // rdb3
+            // rad3
             // 
-            this.rdb3.AutoSize = true;
-            this.rdb3.Location = new System.Drawing.Point(297, 207);
-            this.rdb3.Name = "rdb3";
-            this.rdb3.Size = new System.Drawing.Size(45, 23);
-            this.rdb3.TabIndex = 12;
-            this.rdb3.TabStop = true;
-            this.rdb3.Text = "III";
-            this.rdb3.UseVisualStyleBackColor = true;
+            this.rad3.AutoSize = true;
+            this.rad3.Location = new System.Drawing.Point(297, 207);
+            this.rad3.Name = "rad3";
+            this.rad3.Size = new System.Drawing.Size(45, 23);
+            this.rad3.TabIndex = 12;
+            this.rad3.TabStop = true;
+            this.rad3.Text = "III";
+            this.rad3.UseVisualStyleBackColor = true;
             // 
-            // rdb4
+            // rad4
             // 
-            this.rdb4.AutoSize = true;
-            this.rdb4.Location = new System.Drawing.Point(405, 209);
-            this.rdb4.Name = "rdb4";
-            this.rdb4.Size = new System.Drawing.Size(43, 23);
-            this.rdb4.TabIndex = 13;
-            this.rdb4.TabStop = true;
-            this.rdb4.Text = "IV";
-            this.rdb4.UseVisualStyleBackColor = true;
+            this.rad4.AutoSize = true;
+            this.rad4.Location = new System.Drawing.Point(405, 209);
+            this.rad4.Name = "rad4";
+            this.rad4.Size = new System.Drawing.Size(43, 23);
+            this.rad4.TabIndex = 13;
+            this.rad4.TabStop = true;
+            this.rad4.Text = "IV";
+            this.rad4.UseVisualStyleBackColor = true;
             // 
             // clbMonhoc
             // 
             this.clbMonhoc.FormattingEnabled = true;
-            this.clbMonhoc.Items.AddRange(new object[] {
-            "LT Window",
-            "LT Internet",
-            "Mạng máy tính",
-            "UML"});
             this.clbMonhoc.Location = new System.Drawing.Point(114, 246);
             this.clbMonhoc.Name = "clbMonhoc";
             this.clbMonhoc.Size = new System.Drawing.Size(228, 92);
@@ -210,6 +205,7 @@
             this.btnDangky.TabIndex = 16;
             this.btnDangky.Text = "Đăng ký";
             this.btnDangky.UseVisualStyleBackColor = true;
+            this.btnDangky.Click += new System.EventHandler(this.btnDangky_Click);
             // 
             // btnHuy
             // 
@@ -241,12 +237,12 @@
             this.Controls.Add(this.btnDangky);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.clbMonhoc);
-            this.Controls.Add(this.rdb4);
-            this.Controls.Add(this.rdb3);
-            this.Controls.Add(this.rdb2);
-            this.Controls.Add(this.rdb1);
-            this.Controls.Add(this.cbbLop);
-            this.Controls.Add(this.cbbNienkhoa);
+            this.Controls.Add(this.rad4);
+            this.Controls.Add(this.rad3);
+            this.Controls.Add(this.rad2);
+            this.Controls.Add(this.rad1);
+            this.Controls.Add(this.cbxLop);
+            this.Controls.Add(this.cbxNienkhoa);
             this.Controls.Add(this.txtHoten);
             this.Controls.Add(this.txtMSSV);
             this.Controls.Add(this.label6);
@@ -275,12 +271,12 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtMSSV;
         private System.Windows.Forms.TextBox txtHoten;
-        private System.Windows.Forms.ComboBox cbbNienkhoa;
-        private System.Windows.Forms.ComboBox cbbLop;
-        private System.Windows.Forms.RadioButton rdb1;
-        private System.Windows.Forms.RadioButton rdb2;
-        private System.Windows.Forms.RadioButton rdb3;
-        private System.Windows.Forms.RadioButton rdb4;
+        private System.Windows.Forms.ComboBox cbxNienkhoa;
+        private System.Windows.Forms.ComboBox cbxLop;
+        private System.Windows.Forms.RadioButton rad1;
+        private System.Windows.Forms.RadioButton rad2;
+        private System.Windows.Forms.RadioButton rad3;
+        private System.Windows.Forms.RadioButton rad4;
         private System.Windows.Forms.CheckedListBox clbMonhoc;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnDangky;

@@ -29,18 +29,41 @@ namespace Bai18_DangKyMonHoc
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            cbxNienkhoa.Items.Add("2020-2021");
+            cbxNienkhoa.Items.Add("2021-2022");
+            cbxNienkhoa.Items.Add("2022-2023");
+            cbxNienkhoa.Items.Add("2023-2024");
+            cbxNienkhoa.Items.Add("2024-2025");
+            cbxNienkhoa.SelectedIndex = 0;
 
+            cbxLop.Items.Add("Ứng dụng phần mềm 1");
+            cbxLop.Items.Add("Ứng dụng phần mềm 2");
+            cbxLop.Items.Add("Ứng dụng phần mềm 3");
+            cbxLop.Items.Add("Thiết kế đồ họa 1");
+            cbxLop.Items.Add("Thiết kế đồ họa 2");
+            cbxLop.Items.Add("Quản trị mạng 1");
+            cbxLop.Items.Add("Quản trị mạng 2");
+            cbxLop.SelectedIndex = 0;
+
+            rad1.Checked = true;
+
+            clbMonhoc.Items.Add("LT WIN", CheckState.Checked);
+            clbMonhoc.Items.Add("LT Internet", CheckState.Checked);
+            clbMonhoc.Items.Add("Mạng máy tính", CheckState.Checked);
+            clbMonhoc.Items.Add("UML", CheckState.Checked);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            void HuyCheckListBox(CheckedListBox lst)
-            {
-                while (lst.CheckedIndices.Count > 0)
-                {
-                    lst.SetItemChecked(lst.CheckedIndices[0], false);
-                }
-            }
+
+        }
+
+        private void btnDangky_Click(object sender, EventArgs e)
+        {
+            string ten = txtHoten.Text;
+            int MSSV = Convert.ToInt32(txtMSSV.Text);
+
+            
         }
     }
 }
