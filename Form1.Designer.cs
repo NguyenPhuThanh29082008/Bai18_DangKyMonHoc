@@ -150,7 +150,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(165, 207);
+            this.radioButton2.Location = new System.Drawing.Point(204, 207);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(39, 23);
             this.radioButton2.TabIndex = 11;
@@ -161,7 +161,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(217, 207);
+            this.radioButton3.Location = new System.Drawing.Point(297, 207);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(45, 23);
             this.radioButton3.TabIndex = 12;
@@ -172,7 +172,7 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(268, 207);
+            this.radioButton4.Location = new System.Drawing.Point(405, 209);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(43, 23);
             this.radioButton4.TabIndex = 13;
@@ -222,12 +222,13 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(358, 356);
+            this.button3.Location = new System.Drawing.Point(360, 356);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(88, 36);
             this.button3.TabIndex = 18;
             this.button3.Text = "Thoát";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -256,7 +257,8 @@
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "DangKyMonHoc";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
