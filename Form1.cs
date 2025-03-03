@@ -60,10 +60,39 @@ namespace Bai18_DangKyMonHoc
 
         private void btnDangky_Click(object sender, EventArgs e)
         {
-            string ten = txtHoten.Text;
-            int MSSV = Convert.ToInt32(txtMSSV.Text);
+            string thongtin;
+            thongtin = "Mã số sinh viên: " + txtMSSV.Text;
+            thongtin += "\nHọ và tên: " + txtHoten.Text;
+            thongtin += "\nNiên khóa: " + cbxNienkhoa.SelectedItem;
+            thongtin += "\nLớp: " + cbxLop.SelectedItem;
 
-            
+            string hocky = "";
+            if (rad1.Checked)
+            {
+                hocky = rad1.Text;
+            }
+            else if (rad2.Checked)
+            {
+                hocky = rad2.Text;
+            }
+            else if (rad3.Checked)
+            {
+                hocky = rad3.Text;
+            }
+            else if (rad4.Checked)
+            {
+                hocky = rad4.Text;
+            }
+
+            thongtin += "\nĐã đăng ký học Học kỳ " + hocky + " Các môn học sau: ";
+
+            int stt = 1;
+            foreach (var item in clbMonhoc.CheckedItems)
+            {
+                thongtin += "\n" + stt + ". " + item.ToString();
+                stt++;
+            }
+            MessageBox.Show(thongtin, "Thông tin sinh viên");
         }
     }
 }
